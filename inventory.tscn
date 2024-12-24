@@ -18,3 +18,73 @@ sprite_frames = SubResource("SpriteFrames_0doo7")
 animation = &"Empty"
 
 [node name="RedBerry" type="Sprite2D" parent="."]
+
+[node name="BlueBerry" type="Sprite2D" parent="."]
+
+[node name="LightPurpleFlower" type="Sprite2D" parent="."]
+
+[node name="RedSnow" type="Sprite2D" parent="."]
+
+[node name="PurpleBush" type="Sprite2D" parent="."]
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+
+[node name="Sprite2D15" type="Sprite2D" parent="."]
+
+[node name="Sprite2D16" type="Sprite2D" parent="."]
+
+[node name="Sprite2D17" type="Sprite2D" parent="."]
+
+[node name="Sprite2D18" type="Sprite2D" parent="."]
+
+[node name="Sprite2D19" type="Sprite2D" parent="."]
+
+[node name="Sprite2D20" type="Sprite2D" parent="."]
+
+[node name="Sprite2D21" type="Sprite2D" parent="."]
+
+[node name="Sprite2D22" type="Sprite2D" parent="."]
+
+[node name="Sprite2D23" type="Sprite2D" parent="."]
+
+[node name="Sprite2D24" type="Sprite2D" parent="."]
+
+[node name="Sprite2D25" type="Sprite2D" parent="."]
+
+[node name="Sprite2D26" type="Sprite2D" parent="."]
+
+[node name="Sprite2D27" type="Sprite2D" parent="."]
+
+[node name="Sprite2D28" type="Sprite2D" parent="."]
+
+[node name="Sprite2D29" type="Sprite2D" parent="."]
+
+[node name="Sprite2D30" type="Sprite2D" parent="."]
+
+[node name="Sprite2D31" type="Sprite2D" parent="."]
+
+[node name="Sprite2D32" type="Sprite2D" parent="."]
+
+[node name="Sprite2D33" type="Sprite2D" parent="."]
+
+[node name="Sprite2D34" type="Sprite2D" parent="."]
+
+[node name="Sprite2D35" type="Sprite2D" parent="."]
