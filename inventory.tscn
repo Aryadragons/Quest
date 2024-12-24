@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://boyiao5rxltsa"]
+
+[ext_resource type="Script" path="res://scripts/inventory.gd" id="1_fgvdy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0doo7"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"Empty",
+"speed": 5.0
+}]
+
+[node name="Inventory" type="Node2D"]
+script = ExtResource("1_fgvdy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_0doo7")
+animation = &"Empty"

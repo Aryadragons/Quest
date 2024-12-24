@@ -1,6 +1,24 @@
-extends Node
-
-var numOfCoins = 0
+extends Node2D
+var spot1XVal = 0
+var spot2XVal = 8
+var spot3XVal = 16
+var spot4XVal = 24
+var spot5XVal = 32
+var spot6XVal = 40
+var spot7XVal = 48
+var spot8XVal = 56
+var spot9XVal = 64
+var spot10XVal = 72
+var spot1YVal = 0
+var spot2YVal = 0
+var spot3YVal = 0
+var spot4YVal = 0
+var spot5YVal = 0
+var spot6YVal = 0
+var spot7YVal = 0
+var spot8YVal = 0
+var spot9YVal = 0
+var spot10YVal = 0
 var AmoutOfRedBerry = 0
 var AmoutOfBlueBerry = 0
 var AmoutOfLightPurpleFlower = 0
@@ -43,15 +61,11 @@ var AmoutOfMushroom = 0
 var AmoutOfBlueStick = 0
 var AmoutOfFrozenAntlers = 0
 var AmoutOfMajorFrostPotion = 0
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
 
-@onready var scorekeeperCoinsLabel = $Label
-@onready var scorekeeperCoinsLabel2 = $Label2
-@onready var scorekeeperCoinsLabel3 = $Label3
-@onready var scorekeeperCoinsLabel4 = $Label4
 
-func add_coins():
-	numOfCoins += 1
-	scorekeeperCoinsLabel.text = "You Have " + str(numOfCoins) + " Coins!"
-	scorekeeperCoinsLabel2.text = "You Have " + str(numOfCoins) + " Coins!"
-	scorekeeperCoinsLabel3.text = "You Have " + str(numOfCoins) + " Coins!"
-	scorekeeperCoinsLabel4.text = "You Have " + str(numOfCoins) + " Coins!"
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
