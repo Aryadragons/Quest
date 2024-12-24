@@ -16,3 +16,5 @@ script = ExtResource("1_fgvdy")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_0doo7")
 animation = &"Empty"
+
+[node name="RedBerry" type="Sprite2D" parent="."]
