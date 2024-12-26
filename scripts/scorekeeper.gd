@@ -55,3 +55,90 @@ func add_coins():
 	scorekeeperCoinsLabel2.text = "You Have " + str(numOfCoins) + " Coins!"
 	scorekeeperCoinsLabel3.text = "You Have " + str(numOfCoins) + " Coins!"
 	scorekeeperCoinsLabel4.text = "You Have " + str(numOfCoins) + " Coins!"
+
+func _getAmtCoins():
+	return numOfCoins
+func _getAmtRedBerry():
+	return AmoutOfRedBerry
+func _getAmtBlueBerry():
+	return AmoutOfBlueBerry
+func _getAmtLightPurpleFlower():
+	return AmoutOfLightPurpleFlower
+func _getAmtRedSnowFlower():
+	return AmoutOfRedSnowFlower
+func _getAmtPurpleBush():
+	return AmoutOfPurpleBush
+func _getAmtSnowFuzzTop():
+	return AmoutOfSnowFuzzTop
+func _getAmtGreanBall():
+	return AmoutOfGreanBall
+func _getAmtPinkFlower():
+	return AmoutOfPinkFlower
+func _getAmtDarkPurpleFlower():
+	return AmoutOfDarkPurpleFlower
+func _getAmtOrangeFlower():
+	return AmoutOfOrangeFlower
+func _getAmtYellowFlower():
+	return AmoutOfYellowFlower
+func _getAmtKeys():
+	return AmoutOfKeys
+func _getAmtPinkTreeStick():
+	return AmoutOfPinkTreeStick
+func _getAmtMinorHealingPotion():
+	return AmoutOfMinorHealingPotion
+func _getAmtPurplePotion ():
+	return AmoutOfPurplePotion
+func _getAmtFrostPotion():
+	return AmoutOfFrostPotion
+func _getAmtMajorHealingPotion():
+	return AmoutOfMajorHealingPotion
+func _getAmtPosionPotion():
+	return AmoutOfPosionPotion
+func _getAmtFronzeStick():
+	return AmoutOfFronzeStick
+func _getAmtPurpleTreeStick():
+	return AmoutOfPurpleTreeStick
+func _getAmtGreenBush():
+	return AmoutOfGreenBush
+func _getAmtBlueBubbleBall():
+	return AmoutOfBlueBubbleBall
+func _getAmtPinkWinterMushroom():
+	return AmoutOfPinkWinterMushroom
+func _getAmtOrangeWinterMushroom():
+	return AmoutOfOrangeWinterMushroom
+func _getAmtLessGreenTwist():
+	return AmoutOfLessGreenTwist
+func _getAmtGrandCarrot():
+	return AmoutOfGrandCarrot
+func _getAmtDeathPotion():
+	return AmoutOfDeathPotion
+func _getAmtBlueBells():
+	return AmoutOfBlueBells
+func _getAmtBrichStick():
+	return AmoutOfBrichStick
+func _getAmtDarkTealRock():
+	return AmoutOfDarkTealRock
+func _getAmtGreanTwist():
+	return AmoutOfGreanTwist
+func _getAmtYellowStemWinter():
+	return AmoutOfYellowStemWinter
+func _getAmtFozenHeart():
+	return AmoutOfFozenHeart
+func _getAmtGoldenBanana():
+	return AmoutOfGoldenBanana
+func _getAmtDeathFlower():
+	return AmoutOfDeathFlower
+func _getAmtFirePotion():
+	return AmoutOfFirePotion
+func _getAmtSunlightPotion():
+	return AmoutOfSunlightPotion
+func _getAmtStoneSkinPotion():
+	return AmoutOfStoneSkinPotion
+func _getAmtMushroom():
+	return AmoutOfMushroom
+func _getAmtBlueStick():
+	return AmoutOfBlueStick
+func _getAmtFrozenAntlers():
+	return AmoutOfFrozenAntlers
+func _getAmtMajorFrostPotion():
+	return AmoutOfMajorFrostPotion

@@ -115,6 +115,16 @@ var isSlot7Full = false
 var isSlot8Full = false
 var isSlot9Full = false
 var isSlot10Full = false
+var itemInSlot1
+var itemInSlot2
+var itemInSlot3
+var itemInSlot4
+var itemInSlot5
+var itemInSlot6
+var itemInSlot7
+var itemInSlot8
+var itemInSlot9
+var itemInSlot10
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -126,6 +136,50 @@ func _input(event: InputEvent) -> void:
 	elif Input.is_action_pressed("tab") && IsInventoryOpen == true:
 		IsInventoryOpen = false 
 		tween.tween_property(self, "position", position + Vector2(0,64), 0.2)
+
+func loadInInventory():
+	if isSlot1Full == true:
+		_getAndSetItems(itemInSlot1, spot1XVal)
+	if isSlot2Full == true:
+		_getAndSetItems(itemInSlot2, spot2XVal)
+	if isSlot3Full == true:
+		_getAndSetItems(itemInSlot3, spot3XVal)
+	if isSlot4Full == true:
+		_getAndSetItems(itemInSlot4, spot4XVal)
+	if isSlot5Full == true:
+		_getAndSetItems(itemInSlot5, spot5XVal)
+	if isSlot6Full == true:
+		_getAndSetItems(itemInSlot6, spot6XVal)
+	if isSlot7Full == true:
+		_getAndSetItems(itemInSlot7, spot7XVal)
+	if isSlot8Full == true:
+		_getAndSetItems(itemInSlot8, spot8XVal)
+	if isSlot9Full == true:
+		_getAndSetItems(itemInSlot9, spot9XVal)
+	if isSlot10Full == true:
+		_getAndSetItems(itemInSlot10, spot10XVal)
+
+func _setInSlotMem(itemPassedName, slot):
+	if slot == 1:
+		itemInSlot1 = itemPassedName
+	if slot == 2:
+		itemInSlot2 = itemPassedName
+	if slot == 3:
+		itemInSlot3 = itemPassedName
+	if slot == 4:
+		itemInSlot4 = itemPassedName
+	if slot == 5:
+		itemInSlot5 = itemPassedName
+	if slot == 6:
+		itemInSlot6 = itemPassedName
+	if slot == 7:
+		itemInSlot7 = itemPassedName
+	if slot == 8:
+		itemInSlot8 = itemPassedName
+	if slot == 9:
+		itemInSlot9 = itemPassedName
+	if slot == 10:
+		itemInSlot10 = itemPassedName
 
 func _getAndSetItems(itemPassedName, intoPos):
 	if itemPassedName.contains("RedBerry") == true:
