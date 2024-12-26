@@ -129,89 +129,89 @@ func _input(event: InputEvent) -> void:
 
 func _getAndSetItems(itemPassedName, intoPos):
 	if itemPassedName.contains("RedBerry") == true:
-		tweenRedBerry.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenRedBerry.tween_property($RedBerry, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("tweenBlueBerry") == true:
-		tweenBlueBerry.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenBlueBerry.tween_property($BlueBerry, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("LightPurpleFlower") == true:
-		tweenLightPurpleFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenLightPurpleFlower.tween_property($LightPurpleFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("RedSnowFlower") == true:
-		tweenRedSnowFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenRedSnowFlower.tween_property($RedSnow, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PurpleBush") == true:
-		tweenPurpleBush.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPurpleBush.tween_property($PurpleBush, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("SnowFuzzTop") == true:
-		tweenSnowFuzzTop.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenSnowFuzzTop.tween_property($SnowFuzzTop, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("GreanBall") == true:
-		tweenGreanBall.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenGreanBall.tween_property($GreanBall, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PinkFlower") == true:
-		tweenPinkFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPinkFlower.tween_property($PinkFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("DarkPurpleFlower") == true:
-		tweenDarkPurpleFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenDarkPurpleFlower.tween_property($DarkPurpleFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("OrangeFlower") == true:
-		tweenOrangeFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenOrangeFlower.tween_property($OrangeFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("YellowFlower") == true:
-		tweenYellowFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenYellowFlower.tween_property($YellowFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("Keys") == true:
-		tweenKeys.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenKeys.tween_property($Keys, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PinkTreeStick") == true:
-		tweenPinkTreeStick.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPinkTreeStick.tween_property($PinkTreeStick, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("MinorHealingPotion") == true:
-		tweenMinorHealingPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenMinorHealingPotion.tween_property($MinorHealingPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PurplePotion") == true:
-		tweenPurplePotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPurplePotion.tween_property($PurplePotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("FrostPotion") == true:
-		tweenFrostPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenFrostPotion.tween_property($FrostPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("MajorHealingPotion") == true:
-		tweenMajorHealingPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenMajorHealingPotion.tween_property($MajorHealingPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PosionPotion") == true:
-		tweenPosionPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPosionPotion.tween_property($PosionPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("FronzeStick") == true:
-		tweenFronzeStick.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenFronzeStick.tween_property($FronzeStick, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PurpleTreeStick") == true:
-		tweenPurpleTreeStick.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPurpleTreeStick.tween_property($PurpleTreeStick, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("GreenBush") == true:
-		tweenGreenBush.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenGreenBush.tween_property($GreenBush, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("BlueBubbleBall") == true:
-		tweenBlueBubbleBall.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenBlueBubbleBall.tween_property($BlueBubbleBall, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("PinkWinterMushroom") == true:
-		tweenPinkWinterMushroom.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenPinkWinterMushroom.tween_property($PinkWinterMushroom, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("OrangeWinterMushroom") == true:
-		tweenOrangeWinterMushroom.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenOrangeWinterMushroom.tween_property($OrangeWinterMushroom, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("LessGreenTwist") == true:
-		tweenLessGreenTwist.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenLessGreenTwist.tween_property($LessGreenTwist, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("GrandCarrot") == true:
-		tweenGrandCarrot.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenGrandCarrot.tween_property($GrandCarrot, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("DeathPotion") == true:
-		tweenDeathPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenDeathPotion.tween_property($DeathPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("BlueBells") == true:
-		tweenBlueBells.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenBlueBells.tween_property($BlueBells, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("BrichStick") == true:
-		tweenBrichStick.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenBrichStick.tween_property($BrichStick, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("DarkTealRock") == true:
-		tweenDarkTealRock.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenDarkTealRock.tween_property($DarkTealRock, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("GreanTwist") == true:
-		tweenGreanTwist.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenGreanTwist.tween_property($GreanTwist, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("YellowStemWinter") == true:
-		tweenYellowStemWinter.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenYellowStemWinter.tween_property($YellowStemWinter, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("FozenHeart") == true:
-		tweenFozenHeart.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenFozenHeart.tween_property($FozenHeart, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("GoldenBanana") == true:
-		tweenGoldenBanana.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenGoldenBanana.tween_property($GoldenBanana, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("DeathFlower") == true:
-		tweenDeathFlower.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenDeathFlower.tween_property($DeathFlower, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("FirePotion") == true:
-		tweenFirePotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenFirePotion.tween_property($FirePotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("SunlightPotion") == true:
-		tweenSunlightPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenSunlightPotion.tween_property($SunlightPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("StoneSkinPotion") == true:
-		tweenStoneSkinPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenStoneSkinPotion.tween_property($StoneSkinPotion, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("Mushroom") == true:
-		tweenMushroom.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenMushroom.tween_property($Mushroom, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("BlueStick") == true:
-		tweenBlueStick.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenBlueStick.tween_property($BlueStick, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("FrozenAntlers") == true:
-		tweenFrozenAntlers.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenFrozenAntlers.tween_property($FrozenAntlers, "position", position + Vector2(intoPos,-64), 0.2)
 	if itemPassedName.contains("MajorFrostPotion") == true:
-		tweenMajorFrostPotion.tween_property(self, "position", position + Vector2(intoPos,-64), 0.2)
+		tweenMajorFrostPotion.tween_property($MajorFrostPotion, "position", position + Vector2(intoPos,-64), 0.2)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

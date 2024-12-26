@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://boyiao5rxltsa"]
+[gd_scene load_steps=4 format=3 uid="uid://boyiao5rxltsa"]
 
 [ext_resource type="Script" path="res://scripts/inventory.gd" id="1_fgvdy"]
+[ext_resource type="Texture2D" uid="uid://bc4abajgcw77n" path="res://Assets/World V5.png" id="2_5v75f"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0doo7"]
 animations = [{
@@ -18,6 +19,7 @@ sprite_frames = SubResource("SpriteFrames_0doo7")
 animation = &"Empty"
 
 [node name="RedBerry" type="Sprite2D" parent="."]
+texture = ExtResource("2_5v75f")
 
 [node name="BlueBerry" type="Sprite2D" parent="."]
 
@@ -27,64 +29,76 @@ animation = &"Empty"
 
 [node name="PurpleBush" type="Sprite2D" parent="."]
 
-[node name="Sprite2D5" type="Sprite2D" parent="."]
+[node name="SnowFuzzTop" type="Sprite2D" parent="."]
 
-[node name="Sprite2D6" type="Sprite2D" parent="."]
+[node name="GreanBall" type="Sprite2D" parent="."]
 
-[node name="Sprite2D7" type="Sprite2D" parent="."]
+[node name="PinkFlower" type="Sprite2D" parent="."]
 
-[node name="Sprite2D8" type="Sprite2D" parent="."]
+[node name="DarkPurpleFlower" type="Sprite2D" parent="."]
 
-[node name="Sprite2D9" type="Sprite2D" parent="."]
+[node name="OrangeFlower" type="Sprite2D" parent="."]
 
-[node name="Sprite2D10" type="Sprite2D" parent="."]
+[node name="YellowFlower" type="Sprite2D" parent="."]
 
-[node name="Sprite2D11" type="Sprite2D" parent="."]
+[node name="Keys" type="Sprite2D" parent="."]
 
-[node name="Sprite2D12" type="Sprite2D" parent="."]
+[node name="PinkTreeStick" type="Sprite2D" parent="."]
 
-[node name="Sprite2D13" type="Sprite2D" parent="."]
+[node name="MinorHealingPotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D14" type="Sprite2D" parent="."]
+[node name="PurplePotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D15" type="Sprite2D" parent="."]
+[node name="FrostPotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D16" type="Sprite2D" parent="."]
+[node name="MajorHealingPotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D17" type="Sprite2D" parent="."]
+[node name="PosionPotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D18" type="Sprite2D" parent="."]
+[node name="FronzeStick" type="Sprite2D" parent="."]
 
-[node name="Sprite2D19" type="Sprite2D" parent="."]
+[node name="PurpleTreeStick" type="Sprite2D" parent="."]
 
-[node name="Sprite2D20" type="Sprite2D" parent="."]
+[node name="GreenBush" type="Sprite2D" parent="."]
 
-[node name="Sprite2D21" type="Sprite2D" parent="."]
+[node name="BlueBubbleBall" type="Sprite2D" parent="."]
 
-[node name="Sprite2D22" type="Sprite2D" parent="."]
+[node name="PinkWinterMushroom" type="Sprite2D" parent="."]
 
-[node name="Sprite2D23" type="Sprite2D" parent="."]
+[node name="OrangeWinterMushroom" type="Sprite2D" parent="."]
 
-[node name="Sprite2D24" type="Sprite2D" parent="."]
+[node name="LessGreenTwist" type="Sprite2D" parent="."]
 
-[node name="Sprite2D25" type="Sprite2D" parent="."]
+[node name="GrandCarrot" type="Sprite2D" parent="."]
 
-[node name="Sprite2D26" type="Sprite2D" parent="."]
+[node name="DeathPotion" type="Sprite2D" parent="."]
 
-[node name="Sprite2D27" type="Sprite2D" parent="."]
+[node name="BlueBells" type="Sprite2D" parent="."]
 
-[node name="Sprite2D28" type="Sprite2D" parent="."]
+[node name="BrichStick" type="Sprite2D" parent="."]
 
-[node name="Sprite2D29" type="Sprite2D" parent="."]
+[node name="DarkTealRock" type="Sprite2D" parent="."]
 
-[node name="Sprite2D30" type="Sprite2D" parent="."]
+[node name="GreanTwist" type="Sprite2D" parent="."]
 
-[node name="Sprite2D31" type="Sprite2D" parent="."]
+[node name="YellowStemWinter" type="Sprite2D" parent="."]
 
-[node name="Sprite2D32" type="Sprite2D" parent="."]
+[node name="FozenHeart" type="Sprite2D" parent="."]
 
-[node name="Sprite2D33" type="Sprite2D" parent="."]
+[node name="GoldenBanana" type="Sprite2D" parent="."]
 
-[node name="Sprite2D34" type="Sprite2D" parent="."]
+[node name="DeathFlower" type="Sprite2D" parent="."]
 
-[node name="Sprite2D35" type="Sprite2D" parent="."]
+[node name="FirePotion" type="Sprite2D" parent="."]
+
+[node name="SunlightPotion" type="Sprite2D" parent="."]
+
+[node name="StoneSkinPotion" type="Sprite2D" parent="."]
+
+[node name="Mushroom" type="Sprite2D" parent="."]
+
+[node name="BlueStick" type="Sprite2D" parent="."]
+
+[node name="FrozenAntlers" type="Sprite2D" parent="."]
+
+[node name="MajorFrostPotion" type="Sprite2D" parent="."]
