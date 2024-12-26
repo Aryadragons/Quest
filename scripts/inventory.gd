@@ -125,6 +125,91 @@ var itemInSlot7
 var itemInSlot8
 var itemInSlot9
 var itemInSlot10
+var tweenRedBerryAmt = create_tween()
+var tweenBlueBerryAmt = create_tween()
+var tweenLightPurpleFlowerAmt = create_tween()
+var tweenRedSnowFlowerAmt = create_tween()
+var tweenPurpleBushAmt = create_tween()
+var tweenSnowFuzzTopAmt = create_tween()
+var tweenGreanBallAmt = create_tween()
+var tweenPinkFlowerAmt = create_tween()
+var tweenDarkPurpleFlowerAmt = create_tween()
+var tweenOrangeFlowerAmt = create_tween()
+var tweenYellowFlowerAmt = create_tween()
+var tweenKeysAmt = create_tween()
+var tweenPinkTreeStickAmt = create_tween()
+var tweenMinorHealingPotionAmt = create_tween()
+var tweenPurplePotionAmt = create_tween()
+var tweenFrostPotionAmt = create_tween()
+var tweenMajorHealingPotionAmt = create_tween()
+var tweenPosionPotionAmt = create_tween()
+var tweenFronzeStickAmt = create_tween()
+var tweenPurpleTreeStickAmt = create_tween()
+var tweenGreenBushAmt = create_tween()
+var tweenBlueBubbleBallAmt = create_tween()
+var tweenPinkWinterMushroomAmt = create_tween()
+var tweenOrangeWinterMushroomAmt = create_tween()
+var tweenLessGreenTwistAmt = create_tween()
+var tweenGrandCarrotAmt = create_tween()
+var tweenDeathPotionAmt = create_tween()
+var tweenBlueBellsAmt = create_tween()
+var tweenBrichStickAmt = create_tween()
+var tweenDarkTealRockAmt = create_tween()
+var tweenGreanTwistAmt = create_tween()
+var tweenYellowStemWinterAmt = create_tween()
+var tweenFozenHeartAmt = create_tween()
+var tweenGoldenBananaAmt = create_tween()
+var tweenDeathFlowerAmt = create_tween()
+var tweenFirePotionAmt = create_tween()
+var tweenSunlightPotionAmt = create_tween()
+var tweenStoneSkinPotionAmt = create_tween()
+var tweenMushroomAmt = create_tween()
+var tweenBlueStickAmt = create_tween()
+var tweenFrozenAntlersAmt = create_tween()
+var tweenMajorFrostPotionAmt = create_tween()
+@onready var InventoryRedBerryLabel = $AmtRedBerry
+@onready var InventoryBlueBerryLabel = $AmtBlueBerry
+@onready var InventoryLightPrupleFlowerLabel = $AmtLightPurpleFlower
+@onready var InventoryRedSnowFlowerLabel = $AmtRedSnowFlower
+@onready var InventoryAmoutOfPurpleBush = $AmtPurpleBush
+@onready var InventoryAmoutOfSnowFuzzTop = $AmtSnowFuzzTop
+@onready var InventoryAmoutOfGreanBall = $AmtGreanBall
+@onready var InventoryAmoutOfPinkFlower = $AmtPinkFlower
+@onready var InventoryAmoutOfDarkPurpleFlower = $AmtDarkPurpleFlower
+@onready var InventoryAmoutOfOrangeFlower = $AmtOrangeFlower
+@onready var InventoryAmoutOfYellowFlower = $AmtYellowFlower
+@onready var InventoryAmoutOfKeys = $AmtKeys
+@onready var InventoryAmoutOfPinkTreeStick = $AmtPinkTreeStick
+@onready var InventoryAmoutOfMinorHealingPotion = $AmtMinorHealingPotion
+@onready var InventoryAmoutOfPurplePotion = $AmtPurplePotion
+@onready var InventoryAmoutOfFrostPotion = $AmtFrostPotion
+@onready var InventoryAmoutOfMajorHealingPotion = $AmtMajorHealingPotion
+@onready var InventoryAmoutOfPosionPotion = $AmtPosionPotion
+@onready var InventoryAmoutOfFronzeStick = $AmtFronzeStick
+@onready var InventoryAmoutOfPurpleTreeStick = $AmtPurpleTreeStick
+@onready var InventoryAmoutOfGreenBush = $AmtGreenBush2
+@onready var InventoryAmoutOfBlueBubbleBall = $AmtBlueBubbleBall2
+@onready var InventoryAmoutOfPinkWinterMushroom = $AmtPinkWinterMushroom2
+@onready var InventoryAmoutOfOrangeWinterMushroom = $AmtOrangeWinterMushroom
+@onready var InventoryAmoutOfLessGreenTwist = $AmtLessGreenTwist
+@onready var InventoryAmoutOfGrandCarrot = $AmtGrandCarrot
+@onready var InventoryAmoutOfDeathPotion = $AmtDeathPotion
+@onready var InventoryAmoutOfBlueBells = $AmtBlueBells
+@onready var InventoryAmoutOfBrichStick = $AmtBrichStick
+@onready var InventoryAmoutOfDarkTealRock = $AmtDarkTealRock
+@onready var InventoryAmoutOfGreanTwist = $AmtGreanTwist
+@onready var InventoryAmoutOfYellowStemWinter = $AmtYellowStemWinter
+@onready var InventoryAmoutOfFozenHeart = $AmtFozenHeart
+@onready var InventoryAmoutOfGoldenBanana = $AmtGoldenBanana
+@onready var InventoryAmoutOfDeathFlower = $AmtDeathFlower
+@onready var InventoryAmoutOfFirePotion = $AmtFirePotion
+@onready var InventoryAmoutOfSunlightPotion = $AmtSunLightPotion
+@onready var InventoryAmoutOfStoneSkinPotion = $AmtStoneSkinPotion
+@onready var InventoryAmoutOfMushroom = $AmtMushroom
+@onready var InventoryAmoutOfBlueStick = $AmtBlueStick
+@onready var InventoryAmoutOfFrozenAntlers = $AmtFrozenAntlers
+@onready var InventoryAmoutOfMajorFrostPotion = $AmtMajorFrostPotion
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -180,7 +265,92 @@ func _setInSlotMem(itemPassedName, slot):
 		itemInSlot9 = itemPassedName
 	if slot == 10:
 		itemInSlot10 = itemPassedName
-
+func _getAndSetItemValues(itemPassedName, xPos):
+	if itemPassedName.contains("RedBerry") == true:
+		tweenRedBerryAmt.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("tweenBlueBerry") == true:
+		tweenBlueBerry.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("LightPurpleFlower") == true:
+		tweenLightPurpleFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("RedSnowFlower") == true:
+		tweenRedSnowFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PurpleBush") == true:
+		tweenPurpleBush.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("SnowFuzzTop") == true:
+		tweenSnowFuzzTop.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("GreanBall") == true:
+		tweenGreanBall.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PinkFlower") == true:
+		tweenPinkFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("DarkPurpleFlower") == true:
+		tweenDarkPurpleFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("OrangeFlower") == true:
+		tweenOrangeFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("YellowFlower") == true:
+		tweenYellowFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("Keys") == true:
+		tweenKeys.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PinkTreeStick") == true:
+		tweenPinkTreeStick.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("MinorHealingPotion") == true:
+		tweenMinorHealingPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PurplePotion") == true:
+		tweenPurplePotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("FrostPotion") == true:
+		tweenFrostPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("MajorHealingPotion") == true:
+		tweenMajorHealingPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PosionPotion") == true:
+		tweenPosionPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("FronzeStick") == true:
+		tweenFronzeStick.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PurpleTreeStick") == true:
+		tweenPurpleTreeStick.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("GreenBush") == true:
+		tweenGreenBush.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("BlueBubbleBall") == true:
+		tweenBlueBubbleBall.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("PinkWinterMushroom") == true:
+		tweenPinkWinterMushroom.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("OrangeWinterMushroom") == true:
+		tweenOrangeWinterMushroom.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("LessGreenTwist") == true:
+		tweenLessGreenTwist.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("GrandCarrot") == true:
+		tweenGrandCarrot.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("DeathPotion") == true:
+		tweenDeathPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("BlueBells") == true:
+		tweenBlueBells.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("BrichStick") == true:
+		tweenBrichStick.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("DarkTealRock") == true:
+		tweenDarkTealRock.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("GreanTwist") == true:
+		tweenGreanTwist.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("YellowStemWinter") == true:
+		tweenYellowStemWinter.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("FozenHeart") == true:
+		tweenFozenHeart.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("GoldenBanana") == true:
+		tweenGoldenBanana.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("DeathFlower") == true:
+		tweenDeathFlower.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("FirePotion") == true:
+		tweenFirePotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("SunlightPotion") == true:
+		tweenSunlightPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("StoneSkinPotion") == true:
+		tweenStoneSkinPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("Mushroom") == true:
+		tweenMushroom.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("BlueStick") == true:
+		tweenBlueStick.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("FrozenAntlers") == true:
+		tweenFrozenAntlers.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	if itemPassedName.contains("MajorFrostPotion") == true:
+		tweenMajorFrostPotion.tween_property($RedBerry, "position", position + Vector2(xPos,-64), 0.2)
+	
 func _getAndSetItems(itemPassedName, intoPos):
 	if itemPassedName.contains("RedBerry") == true:
 		tweenRedBerry.tween_property($RedBerry, "position", position + Vector2(intoPos,-64), 0.2)

@@ -102,3 +102,171 @@ texture = ExtResource("2_5v75f")
 [node name="FrozenAntlers" type="Sprite2D" parent="."]
 
 [node name="MajorFrostPotion" type="Sprite2D" parent="."]
+
+[node name="AmtRedBerry" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtBlueBerry" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtLightPurpleFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtRedSnowFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPurpleBush" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtSnowFuzzTop" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtGreanBall" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPinkFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtDarkPurpleFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtOrangeFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtYellowFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtKeys" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPinkTreeStick" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtMinorHealingPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPurplePotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtFrostPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtMajorHealingPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPosionPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtFronzeStick" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPurpleTreeStick" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtGreenBush2" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtBlueBubbleBall2" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtPinkWinterMushroom2" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtOrangeWinterMushroom" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtLessGreenTwist" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtGrandCarrot" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtDeathPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtBlueBells" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtBrichStick" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtDarkTealRock" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtGreanTwist" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtYellowStemWinter" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtFozenHeart" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtGoldenBanana" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtFirePotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtSunLightPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtStoneSkinPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtMushroom" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtBlueStick" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtFrozenAntlers" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtMajorFrostPotion" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AmtDeathFlower" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0

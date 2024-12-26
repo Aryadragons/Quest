@@ -56,6 +56,92 @@ func add_coins():
 	scorekeeperCoinsLabel3.text = "You Have " + str(numOfCoins) + " Coins!"
 	scorekeeperCoinsLabel4.text = "You Have " + str(numOfCoins) + " Coins!"
 
+func add_RedBerry():
+	AmoutOfRedBerry +=1
+
+func add_BlueBerry():
+	AmoutOfBlueBerry +=1
+func add_LightPurpleFlower():
+	AmoutOfLightPurpleFlower +=1
+func add_RedSnowFlower():
+	AmoutOfRedSnowFlower +=1
+func add_PurpleBush():
+	AmoutOfPurpleBush +=1
+func add_SnowFuzzTop():
+	AmoutOfSnowFuzzTop +=1
+func add_GreanBall():
+	AmoutOfGreanBall +=1
+func add_PinkFlower():
+	AmoutOfPinkFlower +=1
+func add_DarkPurpleFlower():
+	AmoutOfDarkPurpleFlower +=1
+func add_OrangeFlower():
+	AmoutOfOrangeFlower +=1
+func add_YellowFlower():
+	AmoutOfYellowFlower +=1
+func add_Keys():
+	AmoutOfKeys +=1
+func add_PinkTreeStick():
+	AmoutOfPinkTreeStick +=1
+func add_MinorHealingPotion():
+	AmoutOfMinorHealingPotion +=1
+func add_PurplePotion():
+	AmoutOfPurpleBush +=1
+func add_FrostPotion():
+	AmoutOfFrostPotion +=1
+func add_MajorHealingPotion():
+	AmoutOfMajorHealingPotion +=1
+func add_PosionPotion():
+	AmoutOfPosionPotion +=1
+func add_FronzeStick():
+	AmoutOfFronzeStick +=1
+func add_PurpleTreeStick():
+	AmoutOfPurpleTreeStick +=1
+func add_GreenBush():
+	AmoutOfGreenBush +=1
+func add_BlueBubbleBall():
+	AmoutOfBlueBubbleBall +=1
+func add_PinkWinterMushroom():
+	AmoutOfPinkWinterMushroom +=1
+func add_OrangeWinterMushroom():
+	AmoutOfOrangeWinterMushroom +=1
+func add_LessGreenTwist():
+	AmoutOfLessGreenTwist +=1
+func add_GrandCarrot():
+	AmoutOfGrandCarrot +=1
+func add_DeathPotion():
+	AmoutOfDeathPotion +=1
+func add_BlueBells():
+	AmoutOfBlueBells +=1
+func add_BrichStick():
+	AmoutOfBrichStick +=1
+func add_DarkTealRock():
+	AmoutOfDarkTealRock +=1
+func add_GreanTwist():
+	AmoutOfGreanTwist +=1
+func add_YellowStemWinter():
+	AmoutOfYellowStemWinter +=1
+func add_FozenHeart():
+	AmoutOfFozenHeart +=1
+func add_GoldenBanana():
+	AmoutOfGoldenBanana +=1
+func add_DeathFlower():
+	AmoutOfDeathFlower +=1
+func add_FirePotion():
+	AmoutOfFirePotion +=1
+func add_SunlightPotion():
+	AmoutOfSunlightPotion +=1
+func add_StoneSkinPotion():
+	AmoutOfStoneSkinPotion +=1
+func add_Mushroom():
+	AmoutOfMushroom +=1
+func add_BlueStick():
+	AmoutOfBlueStick +=1
+func add_FrozenAntlers():
+	AmoutOfFrozenAntlers +=1
+func add_MajorFrostPotion():
+	AmoutOfMajorFrostPotion +=1
+
 func _getAmtCoins():
 	return numOfCoins
 func _getAmtRedBerry():
