@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://bb1jeimw0q5b8"]
+[gd_scene load_steps=48 format=3 uid="uid://bb1jeimw0q5b8"]
 
 [ext_resource type="PackedScene" uid="uid://3initsivwvq3" path="res://Scenes/player.tscn" id="1_532pf"]
 [ext_resource type="Script" path="res://scripts/scorekeeper.gd" id="1_qbrl8"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bi0jon57teynt" path="res://Scenes/coin.tscn" id="5_uco3x"]
 [ext_resource type="PackedScene" uid="uid://bypts0fu4ofqb" path="res://Scenes/chest_top.tscn" id="8_8ei68"]
 [ext_resource type="PackedScene" uid="uid://wa4xknb4r8fi" path="res://Scenes/death_line.tscn" id="9_ty6ut"]
+[ext_resource type="PackedScene" uid="uid://boyiao5rxltsa" path="res://inventory.tscn" id="11_7jay3"]
 [ext_resource type="Script" path="res://Scenes/cave_enterance.gd" id="11_wc5p8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qbnft"]
@@ -1503,35 +1504,35 @@ position = Vector2(789, -155)
 [node name="Coin32" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(834, -166)
 
-[node name="Coin" parent="." instance=ExtResource("5_uco3x")]
-position = Vector2(1355, -57)
-
-[node name="Coin2" parent="." instance=ExtResource("5_uco3x")]
-position = Vector2(1324, -82)
-
-[node name="Coin3" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin35" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1336, -82)
 
-[node name="Coin4" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin36" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1387, -66)
 
-[node name="Coin5" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin37" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1318, -193)
 
-[node name="Coin6" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin38" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1331, -193)
 
-[node name="Coin7" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin39" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1388, -209)
 
-[node name="Coin8" parent="." instance=ExtResource("5_uco3x")]
-position = Vector2(1401, -209)
-
-[node name="Coin9" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin41" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1435, -103)
 
-[node name="Coin10" parent="." instance=ExtResource("5_uco3x")]
+[node name="Coin40" parent="Coins" instance=ExtResource("5_uco3x")]
+position = Vector2(1401, -209)
+
+[node name="Coin34" parent="Coins" instance=ExtResource("5_uco3x")]
+position = Vector2(1324, -82)
+
+[node name="Coin42" parent="Coins" instance=ExtResource("5_uco3x")]
 position = Vector2(1402, -103)
+
+[node name="Coin33" parent="Coins" instance=ExtResource("5_uco3x")]
+position = Vector2(1355, -57)
 
 [node name="Label" type="Label" parent="."]
 offset_left = 1881.0
@@ -1553,6 +1554,8 @@ position = Vector2(1456, -212)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Death Line"]
 position = Vector2(1123, 47)
 shape = SubResource("WorldBoundaryShape2D_8argc")
+
+[node name="Inventory" parent="." instance=ExtResource("11_7jay3")]
 
 [node name="CaveEnterance" type="Area2D" parent="."]
 script = ExtResource("11_wc5p8")
