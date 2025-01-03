@@ -279,6 +279,12 @@ func pickedupItem(itemPassedName):
 	if itemPassedName.contains("RedBerry") == true:
 		if scoreKeeper._getAmtRedBerry() != 0:
 			scoreKeeper.add_RedBerry()
+	elif  itemPassedName.contains("BlueBerry") == true:
+		if scoreKeeper._getAmtBlueBerry() != 0:
+			scoreKeeper.add_BlueBerry()
+	elif  itemPassedName.contains("LightPurpleFlower") == true:
+		if scoreKeeper._getAmtLightPurpleFlower() != 0:
+			scoreKeeper.add_LightPurpleFlower()
 	elif  itemPassedName.contains("") == true:
 		if scoreKeeper._getAmt() != 0:
 			scoreKeeper.add_()
@@ -330,81 +336,75 @@ func pickedupItem(itemPassedName):
 	elif  itemPassedName.contains("") == true:
 		if scoreKeeper._getAmt() != 0:
 			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
+	elif  itemPassedName.contains("PurpleTreeStick") == true:
+		if scoreKeeper._getAmtPurpleTreeStick() != 0:
+			scoreKeeper.add_PurpleTreeStick()
+	elif  itemPassedName.contains("GreenBush") == true:
+		if scoreKeeper._getAmtGreenBush() != 0:
+			scoreKeeper.add_GreenBush()
+	elif  itemPassedName.contains("BlueBubbleBall") == true:
+		if scoreKeeper._getAmtBlueBubbleBall() != 0:
+			scoreKeeper.add_BlueBubbleBall()
+	elif  itemPassedName.contains("PinkWinterMushroom") == true:
+		if scoreKeeper._getAmtPinkWinterMushroom() != 0:
+			scoreKeeper.add_PinkWinterMushroom()
+	elif  itemPassedName.contains("OrangeWinterMushroom") == true:
+		if scoreKeeper._getAmtOrangeWinterMushroom() != 0:
+			scoreKeeper.add_OrangeWinterMushroom()
+	elif  itemPassedName.contains("LessGreenTwist") == true:
+		if scoreKeeper._getAmtLessGreenTwist() != 0:
+			scoreKeeper.add_LessGreenTwist()
+	elif  itemPassedName.contains("GrandCarrot") == true:
+		if scoreKeeper._getAmtGrandCarrot() != 0:
+			scoreKeeper.add_GrandCarrot()
+	elif  itemPassedName.contains("DeathPotion") == true:
+		if scoreKeeper._getAmtDeathPotion() != 0:
+			scoreKeeper.add_DeathPotion()
+	elif  itemPassedName.contains("BlueBells") == true:
+		if scoreKeeper._getAmtBlueBells() != 0:
+			scoreKeeper.add_BlueBells()
+	elif  itemPassedName.contains("BrichStick") == true:
+		if scoreKeeper._getAmtBrichStick() != 0:
+			scoreKeeper.add_BrichStick()
+	elif  itemPassedName.contains("DarkTealRock") == true:
+		if scoreKeeper._getAmtDarkTealRock() != 0:
+			scoreKeeper.add_DarkTealRock()
+	elif  itemPassedName.contains("GreanTwist") == true:
+		if scoreKeeper._getAmtGreanTwist() != 0:
+			scoreKeeper.add_GreanTwist()
+	elif  itemPassedName.contains("YellowStemWinter") == true:
+		if scoreKeeper._getAmtYellowStemWinter() != 0:
+			scoreKeeper.add_YellowStemWinter()
+	elif  itemPassedName.contains("FozenHeart") == true:
+		if scoreKeeper._getAmtFozenHeart() != 0:
+			scoreKeeper.add_FozenHeart()
+	elif  itemPassedName.contains("GoldenBanana") == true:
+		if scoreKeeper._getAmtGoldenBanana() != 0:
+			scoreKeeper.add_GoldenBanana()
+	elif  itemPassedName.contains("DeathFlower") == true:
+		if scoreKeeper._getAmtDeathFlower() != 0:
+			scoreKeeper.add_DeathFlower()
+	elif  itemPassedName.contains("FirePotion") == true:
+		if scoreKeeper._getAmtFirePotion() != 0:
+			scoreKeeper.add_FirePotion()
+	elif  itemPassedName.contains("SunlightPotion") == true:
+		if scoreKeeper._getAmtSunlightPotion() != 0:
+			scoreKeeper.add_SunlightPotion()
+	elif  itemPassedName.contains("StoneSkinPotion") == true:
+		if scoreKeeper._getAmtStoneSkinPotion() != 0:
+			scoreKeeper.add_StoneSkinPotion()
+	elif  itemPassedName.contains("Mushroom") == true:
+		if scoreKeeper._getAmtMushroom() != 0:
+			scoreKeeper.add_Mushroom()
+	elif  itemPassedName.contains("BlueStick") == true:
+		if scoreKeeper._getAmtBlueStick() != 0:
+			scoreKeeper.add_BlueStick()
+	elif  itemPassedName.contains("FrozenAntlers") == true:
+		if scoreKeeper._getAmtFrozenAntlers() != 0:
+			scoreKeeper.add_FrozenAntlers()
+	elif  itemPassedName.contains("MajorFrostPotion") == true:
+		if scoreKeeper._getAmtMajorFrostPotion() != 0:
+			scoreKeeper.add_MajorFrostPotion()
 		else:
 			if isFull == false:
 				if highestPickupOrder == 0:
