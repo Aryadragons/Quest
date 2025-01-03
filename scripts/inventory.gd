@@ -187,6 +187,50 @@ var tweenMushroomAmt = create_tween()
 var tweenBlueStickAmt = create_tween()
 var tweenFrozenAntlersAmt = create_tween()
 var tweenMajorFrostPotionAmt = create_tween()
+var pickupOrderRedBerry = 0
+var pickupOrderBlueBerry = 0
+var pickupOrderLightPurpleFlower = 0
+var pickupOrderRedSnowFlower = 0
+var pickupOrderPurpleBush = 0
+var pickupOrderSnowFuzzTop = 0
+var pickupOrderGreanBall = 0
+var pickupOrderPinkFlower = 0
+var pickupOrderDarkPurpleFlower = 0
+var pickupOrderOrangeFlower = 0
+var pickupOrderYellowFlower = 0
+var pickupOrderKeys = 0
+var pickupOrderPinkTreeStick = 0
+var pickupOrderMinorHealingPotion = 0
+var pickupOrderPurplePotion = 0
+var pickupOrderFrostPotion = 0
+var pickupOrderMajorHealingPotion = 0
+var pickupOrderPosionPotion = 0
+var pickupOrderFronzeStick = 0
+var pickupOrderPurpleTreeStick = 0
+var pickupOrderGreenBush = 0
+var pickupOrderBlueBubbleBall = 0
+var pickupOrderPinkWinterMushroom = 0
+var pickupOrderOrangeWinterMushroom = 0
+var pickupOrderLessGreenTwist = 0
+var pickupOrderGrandCarrot = 0
+var pickupOrderDeathPotion = 0
+var pickupOrderBlueBells = 0
+var pickupOrderBrichStick = 0
+var pickupOrderDarkTealRock = 0
+var pickupOrderGreanTwist = 0
+var pickupOrderYellowStemWinter = 0
+var pickupOrderFozenHeart = 0
+var pickupOrderGoldenBanana = 0
+var pickupOrderDeathFlower = 0
+var pickupOrderFirePotion = 0
+var pickupOrderSunlightPotion = 0
+var pickupOrderStoneSkinPotion = 0
+var pickupOrderMushroom = 0
+var pickupOrderBlueStick = 0
+var pickupOrderFrozenAntlers = 0
+var pickupOrderMajorFrostPotion = 0
+var highestPickupOrder = 0
+var isFull = false
 @onready var InventoryRedBerryLabel = $AmtRedBerry
 @onready var InventoryBlueBerryLabel = $AmtBlueBerry
 @onready var InventoryLightPrupleFlowerLabel = $AmtLightPurpleFlower
@@ -230,6 +274,44 @@ var tweenMajorFrostPotionAmt = create_tween()
 @onready var InventoryAmoutOfFrozenAntlersLabel = $AmtFrozenAntlers
 @onready var InventoryAmoutOfMajorFrostPotionLabel = $AmtMajorFrostPotion
 @onready var scoreKeeper = %Scorekeeper
+
+func pickedupItem(itemPassedName):
+	if itemPassedName.contains("RedBerry") == true:
+		if scoreKeeper._getAmtRedBerry() != 0:
+			scoreKeeper.add_RedBerry()
+		else:
+			if isFull == false:
+				if highestPickupOrder == 0:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 1:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 2:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 3:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 4:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 5:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 6:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 7:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 8:
+					#set item in slot
+					highestPickupOrder += 1
+				if highestPickupOrder == 9:
+					#set item in slot
+					highestPickupOrder += 1
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
