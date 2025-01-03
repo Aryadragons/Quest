@@ -279,39 +279,178 @@ func pickedupItem(itemPassedName):
 	if itemPassedName.contains("RedBerry") == true:
 		if scoreKeeper._getAmtRedBerry() != 0:
 			scoreKeeper.add_RedBerry()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
+	elif  itemPassedName.contains("") == true:
+		if scoreKeeper._getAmt() != 0:
+			scoreKeeper.add_()
 		else:
 			if isFull == false:
 				if highestPickupOrder == 0:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 1)
 					highestPickupOrder += 1
+					isSlot1Full = true
 				if highestPickupOrder == 1:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 2)
 					highestPickupOrder += 1
+					isSlot2Full = true
 				if highestPickupOrder == 2:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 3)
 					highestPickupOrder += 1
+					isSlot3Full = true
 				if highestPickupOrder == 3:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 4)
 					highestPickupOrder += 1
+					isSlot4Full = true
 				if highestPickupOrder == 4:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 5)
 					highestPickupOrder += 1
+					isSlot5Full = true
 				if highestPickupOrder == 5:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 6)
 					highestPickupOrder += 1
+					isSlot6Full = true
 				if highestPickupOrder == 6:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 7)
 					highestPickupOrder += 1
+					isSlot7Full = true
 				if highestPickupOrder == 7:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 8)
 					highestPickupOrder += 1
+					isSlot8Full = true
 				if highestPickupOrder == 8:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 9)
 					highestPickupOrder += 1
+					isSlot9Full = true
 				if highestPickupOrder == 9:
-					#set item in slot
+					_setInSlotMem(itemPassedName, 10)
 					highestPickupOrder += 1
+					isSlot10Full = true
+					isFull = true
 
+func responseFull():
+	return "Your Inventory Is Full"
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
