@@ -19,89 +19,255 @@ sprite_frames = SubResource("SpriteFrames_0doo7")
 animation = &"Empty"
 
 [node name="RedBerry" type="Sprite2D" parent="."]
+visible = false
 texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 216, 8, 8)
 
 [node name="BlueBerry" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 232, 8, 8)
 
 [node name="LightPurpleFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 208, 8, 8)
 
 [node name="RedSnow" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 208, 8, 8)
 
 [node name="PurpleBush" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 208, 8, 8)
 
 [node name="SnowFuzzTop" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 208, 8, 8)
 
 [node name="GreanBall" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 208, 8, 8)
 
 [node name="PinkFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 216, 8, 8)
 
 [node name="DarkPurpleFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 216, 8, 8)
 
 [node name="OrangeFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 216, 8, 8)
 
 [node name="YellowFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 216, 8, 8)
 
 [node name="Keys" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(48, 216, 8, 8)
 
 [node name="PinkTreeStick" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(56, 216, 8, 8)
 
 [node name="MinorHealingPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 224, 8, 8)
 
 [node name="PurplePotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 224, 8, 8)
 
 [node name="FrostPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 224, 8, 8)
 
 [node name="MajorHealingPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 224, 8, 8)
 
 [node name="PosionPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 224, 8, 8)
 
 [node name="FronzeStick" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(48, 224, 8, 8)
 
 [node name="PurpleTreeStick" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(56, 224, 8, 8)
 
 [node name="GreenBush" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(0, 232, 8, 8)
 
 [node name="BlueBubbleBall" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 232, 8, 8)
 
 [node name="PinkWinterMushroom" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 232, 8, 8)
 
 [node name="OrangeWinterMushroom" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 232, 8, 8)
 
 [node name="LessGreenTwist" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 232, 8, 8)
 
 [node name="GrandCarrot" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(56, 232, 8, 8)
 
 [node name="DeathPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(0, 240, 8, 8)
 
 [node name="BlueBells" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 240, 8, 8)
 
 [node name="BrichStick" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 240, 8, 8)
 
 [node name="DarkTealRock" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 240, 8, 8)
 
 [node name="GreanTwist" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 240, 8, 8)
 
 [node name="YellowStemWinter" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 240, 8, 8)
 
 [node name="FozenHeart" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(48, 240, 8, 8)
 
 [node name="GoldenBanana" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(56, 240, 8, 8)
 
 [node name="DeathFlower" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(0, 248, 8, 8)
 
 [node name="FirePotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(8, 248, 8, 8)
 
 [node name="SunlightPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(16, 248, 8, 8)
 
 [node name="StoneSkinPotion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(24, 248, 8, 8)
 
 [node name="Mushroom" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(32, 248, 8, 8)
 
 [node name="BlueStick" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(40, 248, 8, 8)
 
 [node name="FrozenAntlers" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(48, 248, 8, 8)
 
 [node name="MajorFrostPotion" type="Sprite2D" parent="."]
+texture = ExtResource("2_5v75f")
+region_enabled = true
+region_rect = Rect2(56, 248, 8, 8)
 
 [node name="AmtRedBerry" type="Label" parent="."]
 offset_right = 40.0
