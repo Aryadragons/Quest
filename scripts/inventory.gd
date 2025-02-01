@@ -285,57 +285,54 @@ func pickedupItem(itemPassedName):
 	elif  itemPassedName.contains("LightPurpleFlower") == true:
 		if scoreKeeper._getAmtLightPurpleFlower() != 0:
 			scoreKeeper.add_LightPurpleFlower()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
-	elif  itemPassedName.contains("") == true:
-		if scoreKeeper._getAmt() != 0:
-			scoreKeeper.add_()
+	elif  itemPassedName.contains("RedSnowFLower") == true:
+		if scoreKeeper._getAmtRedSnowFLower() != 0:
+			scoreKeeper.add_RedSnowFLower()
+	elif  itemPassedName.contains("PurpleBush") == true:
+		if scoreKeeper._getAmtPurpleBush() != 0:
+			scoreKeeper.add_PurpleBush()
+	elif  itemPassedName.contains("SnowFuzzTop") == true:
+		if scoreKeeper._getAmtSnowFuzzTop() != 0:
+			scoreKeeper.add_SnowFuzzTop()
+	elif  itemPassedName.contains("GreanBall") == true:
+		if scoreKeeper._getAmtGreanBall() != 0:
+			scoreKeeper.add_GreanBall()
+	elif  itemPassedName.contains("PinkFlower") == true:
+		if scoreKeeper._getAmtPinkFlower() != 0:
+			scoreKeeper.add_PinkFlower()
+	elif  itemPassedName.contains("DarkPurpleFlower") == true:
+		if scoreKeeper._getAmtDarkPurpleFlower() != 0:
+			scoreKeeper.add_DarkPurpleFlower()
+	elif  itemPassedName.contains("OrangeFlower") == true:
+		if scoreKeeper._getAmtOrangeFlower() != 0:
+			scoreKeeper.add_OrangeFlower()
+	elif  itemPassedName.contains("YellowFlower") == true:
+		if scoreKeeper._getAmtYellowFlower() != 0:
+			scoreKeeper.add_YellowFlower()
+	elif  itemPassedName.contains("Keys") == true:
+		if scoreKeeper._getAmtKeys() != 0:
+			scoreKeeper.add_Keys()
+	elif  itemPassedName.contains("PinkTreeStick") == true:
+		if scoreKeeper._getAmtPinkTreeStick() != 0:
+			scoreKeeper.add_PinkTreeStick()
+	elif  itemPassedName.contains("MinorHealingPotion") == true:
+		if scoreKeeper._getAmtMinorHealingPotion() != 0:
+			scoreKeeper.add_MinorHealingPotion()
+	elif  itemPassedName.contains("PurplePotion") == true:
+		if scoreKeeper._getAmtPurplePotion() != 0:
+			scoreKeeper.add_PurplePotion()
+	elif  itemPassedName.contains("FrostPotion") == true:
+		if scoreKeeper._getAmtFrostPotion() != 0:
+			scoreKeeper.add_FrostPotion()
+	elif  itemPassedName.contains("MajorHealingPotion") == true:
+		if scoreKeeper._getAmtMajorHealingPotion() != 0:
+			scoreKeeper.add_MajorHealingPotion()
+	elif  itemPassedName.contains("PosionPotion") == true:
+		if scoreKeeper._getAmtPosionPotion() != 0:
+			scoreKeeper.add_PosionPotion()
+	elif  itemPassedName.contains("FronzeStick") == true:
+		if scoreKeeper._getAmtFronzeStick() != 0:
+			scoreKeeper.add_FronzeStick()
 	elif  itemPassedName.contains("PurpleTreeStick") == true:
 		if scoreKeeper._getAmtPurpleTreeStick() != 0:
 			scoreKeeper.add_PurpleTreeStick()
