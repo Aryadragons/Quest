@@ -1,6 +1,7 @@
 extends Node
 
 var numOfCoins = 0
+var reSpawnPostion = Vector2(0,0)
 var AmoutOfRedBerry = 0
 var AmoutOfBlueBerry = 0
 var AmoutOfLightPurpleFlower = 0
@@ -50,7 +51,10 @@ var IsInventFull = false
 @onready var scorekeeperCoinsLabel2 = $Label2
 @onready var scorekeeperCoinsLabel3 = $Label3
 @onready var scorekeeperCoinsLabel4 = $Label4
-
+func set_reSpawmPos(pos):
+	reSpawnPostion = pos;
+func get_reSpawnPos():
+	return reSpawnPostion
 func add_coins():
 	numOfCoins += 1
 	scorekeeperCoinsLabel.text = "You Have " + str(numOfCoins) + " Coins!"
